@@ -1,0 +1,126 @@
+//补给
+========
+Request Header
+
+POST /kcsapi/api_req_hokyu/charge HTTP/1.1
+Host: 203.104.248.135
+Connection: keep-alive
+Content-Length: 145
+Origin: http://203.104.248.135
+X-Requested-With: ShockwaveFlash/16.0.0.296
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: http://203.104.248.135/kcs/mainD2.swf?api_token=c108aa69877afc8474ee29f5bf2f6d601dcc43b1&api_starttime=1423582457105/[[DYNAMIC]]/1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,ja;q=0.6
+========
+Form Data
+
+api_kind:3
+api_onslot:1
+api_verno:1
+api_token:c108aa69877afc8474ee29f5bf2f6d601dcc43b1
+api_id_items:621,644,807,867,880,883
+========
+Response Header
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Feb 2015 15:38:33 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.3
+Content-Length: 546
+Connection: close
+Content-Type: text/plain
+========
+Response
+
+svdata={"api_result":1,"api_result_msg":"\u6210\u529f","api_data":{"api_ship":[{"api_id":621,"api_fuel":15,"api_bull":20,"api_onslot":[0,0,0,0,0]},{"api_id":644,"api_fuel":15,"api_bull":20,"api_onslot":[0,0,0,0,0]},{"api_id":807,"api_fuel":15,"api_bull":15,"api_onslot":[0,0,0,0,0]},{"api_id":867,"api_fuel":15,"api_bull":20,"api_onslot":[0,0,0,0,0]},{"api_id":880,"api_fuel":25,"api_bull":25,"api_onslot":[1,1,0,0,0]},{"api_id":883,"api_fuel":15,"api_bull":20,"api_onslot":[0,0,0,0,0]}],"api_material":[18029,18692,22032,16420],"api_use_bou":0}}
+
+{
+    "api_result": 1,
+    "api_result_msg": "成功",
+    "api_data": {
+        "api_ship": [
+            {
+                "api_id": 621,
+                "api_fuel": 15,
+                "api_bull": 20,
+                "api_onslot": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "api_id": 644,
+                "api_fuel": 15,
+                "api_bull": 20,
+                "api_onslot": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "api_id": 807,
+                "api_fuel": 15,
+                "api_bull": 15,
+                "api_onslot": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "api_id": 867,
+                "api_fuel": 15,
+                "api_bull": 20,
+                "api_onslot": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "api_id": 880,
+                "api_fuel": 25,
+                "api_bull": 25,
+                "api_onslot": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "api_id": 883,
+                "api_fuel": 15,
+                "api_bull": 20,
+                "api_onslot": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "api_material": [
+            18029,
+            18692,
+            22032,
+            16420
+        ],
+        "api_use_bou": 0
+    }
+}
